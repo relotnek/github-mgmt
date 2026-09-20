@@ -1546,7 +1546,7 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      maintain:
+      admin:
         - LexLuthr
         - snadrus
     has_discussions: false
@@ -1852,23 +1852,24 @@ repositories:
     archived: false
     collaborators:
       maintain:
-        - bobbyslife
         - SgtPooki
         - TippyFlitsUK
       push:
+        - bobbyslife
         - BravoNatalie
+        - gayatrigt
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
+    secret_scanning_push_protection: true
+    secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
         - FIL-B
         - FilOz
-    visibility: private
+    visibility: public
     web_commit_signoff_required: false
   filecoin-solidity:
     advanced_security: false
@@ -2928,8 +2929,9 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      push:
+      admin:
         - LexLuthr
+      push:
         - web3-bot
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -3022,7 +3024,7 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      maintain:
+      admin:
         - LexLuthr
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -3467,13 +3469,13 @@ repositories:
         - jennijuju
         - rjan90
       maintain:
+        - LexLuthr
+        - snadrus
         - TippyFlitsUK
       push:
         - arajasek
         - laurentsenta
-        - LexLuthr
         - Reiers
-        - snadrus
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3499,12 +3501,12 @@ repositories:
         - arajasek
         - ognots
       maintain:
+        - LexLuthr
         - rvagg
       pull:
         - turinglabsorg
       push:
         - irenegia
-        - LexLuthr
         - ribasushi
         - scotthconner
     has_discussions: false
@@ -4559,6 +4561,8 @@ repositories:
         - rjan90
         - rvagg
         - wjmelements
+      pull:
+        - decentramike
       push:
         - JAG-UK
         - ThatGuyLLC
